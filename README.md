@@ -1,2 +1,1 @@
-# betondost.github.io
- 
+# https://betondost.github.io/grodno/
