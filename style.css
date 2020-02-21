@@ -1,1 +1,10 @@
+.top
+{
+   padding: 0 30px;
+  font-size: 20px;
+  line-height: 26px;
+  font-family: "Arial", sans-serif;
+  color: #222222;
 
+  background: #ffffff url("img/bet") no-repeat top center;
+}
