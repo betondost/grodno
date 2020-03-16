@@ -2,11 +2,6 @@ body{
   padding-left: 30px
 }
 
-aside {
-  margin: 20px 0;
-  color: #c4c4c4;
-}
-
 .mlink{
  margin: 0 20px;
  display: flex;
@@ -33,6 +28,5 @@ h1 {
   font-family: "Arial", sans-serif;
 };
 footer {
-  margin: 20px 0;
-  color: #3a4d44;
+  color: #c4c4c4;
 }
