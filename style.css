@@ -1,10 +1,38 @@
-.top
-{
-   padding: 0 30px;
-  font-size: 20px;
-  line-height: 26px;
-  font-family: "Arial", sans-serif;
-  color: #222222;
+body{
+  padding-left: 30px
+}
 
-  background: #ffffff url("img/bet") no-repeat top center;
+aside {
+  margin: 20px 0;
+  color: #c4c4c4;
+}
+
+.mlink{
+ margin: 0 20px;
+ display: flex;
+ align-items: center;
+ height: 100% 100px;
+ position: relative;
+ flex-direction: row;
+ justify-content: space-around;
+ align-items: center;
+}
+.ml{
+  text-decoration: none;
+  color: #a33502;
+  font-size: 20px;
+}
+.mlc{
+  color: #328da8;
+  text-decoration: none;
+  font-size: 25px;
+  margin-top:-10px;
+}
+h1 {
+  color: #a33502;
+  font-family: "Arial", sans-serif;
+};
+footer {
+  margin: 20px 0;
+  color: #3a4d44;
 }
