@@ -74,6 +74,7 @@
    <h1>
       <a data-fancybox data-src="#modal" href="javascript:;" style=" text-decoration: none; " id="vop">Задать вопрос</a><br>
    </h1>
+
    <div class="modal-window" id="modal" style="display: none; padding: 50px; max-width: 900px;">
    	 <section class="contact_form">
    	 	<div class="contact_wrapper"> 
@@ -82,28 +83,23 @@
    	 		<form action="#" name="newform" method="post">
    	 			<div class="form_inputs">
    	 				<p>Name <span class="red">*</span></p>
-   	 				<input type="text">
+   	 				<input type="text" name="user_phone">
    	 				<p>Email address <span class="red">*</span></p>
-   	 				<input type="text">
+   	 				<input type="text" name="user_name">
    	 			</div>
    	 			<p>Message <span class="red">*</span></p>
    	 			<textarea name="text"></textarea>
    	 			<div class="button_block">
-   	 				<input type="submit" value="SEND" >
+   	 				<input type="submit" value="SEND" name="user_email" >
    	 			</div>
-   	 		<input type="hidden" name="project_name" value="dostbet">
-   	 		<input type="hidden" name="admin_email" value="artem1111666@gmail.com" > 
-   	 		<input type="hidden" name="form_subject" value="fs">
-
    	 		</form>	
-   	 	<script src="https://code.jduery.com/jquery-1.11.3.min.js"></script>
-   	 	<script src="script.js"></script>>
    	 	</div>
    	 </section>
-   </div>	  
+   </div>
+   	  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="http://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>	  
    </body> 
-      <footer>
-        <asite>©v2020</asite>       
-      </footer>
  </div>
 </html>
