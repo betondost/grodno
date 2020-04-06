@@ -2,7 +2,7 @@
 <html lang="ru">
   <head class="section">
     <meta charset="utf-8">
-    <title>Бетонопревозки. Гродно</title>
+    <title>Доставка бетона по Гродно и области</title>
      <link rel="stylesheet" href="style.css">    
   </head>
   <body>
@@ -10,24 +10,21 @@
     <title> color:"#c4c4c4" </title>
      <a class="ml" href="#kinf" border="2.5"> <b>Контактная информация </b></a>
      <a class="ml" href="#reg"> <b>Предоставлемые услуги</b></a>
-     <a class="ml" href="#otz"> <b>Отзывы </b></a>
      <a class="ml" href="#gal"> <b>Галерея</b></a>
-     <a class="ml" href="#ofz"> <b>Оформление заказа </b></a>
-     <a class="mlc" href="tel:+375 29 765 03 41"> <img src="mph.jpg" width='50' height="50" hspace="10" border="0"> <b>ПОЗВОНИТЕ НАМ</b></a>
+     <a class="ml" href="#vop"> <b>Задать вопрос </b></a>
+     <a class="mlc" href="tel:+375297650341"> <img src="mph.jpg" width='50' height="50" hspace="10" border="0"> <b>ПОЗВОНИТЕ НАМ</b></a>
    </div>
-
+   <div class="name">
      <h1><em>Бетоноперевозки</em></h1>
-   
+   </div>
    <div class="opis">
      <p> Описание.</p>
    </div>
    
+   <h1><em>Стоимость: </em></h1>
+
    <div class="st">
-     <h1><em>Стоимость: </em></h1>
-       <ul>
-        <li>1 - x рублей </li>
-        <li>2 - y рублей </li>
-        </ul>
+     
    </div>
 
    <div class="har">
@@ -43,9 +40,23 @@
       </ul>
     </ul>
    </div>
-    
+      <h1 id="gal"><em>Галерея</em></h1>
    <div class="foto">
-     <h1 id="gal"><em>Галерея</em></h1>
+      <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+      <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+      <a href="img/galery/full/img_01.jpg" data-fancybox="gallery">
+       <img src="img/galery/thumbs/img_01.jpg" alt="img_01">
+      </a>
+       
+      <a href="img/galery/full/img_02.jpg" data-fancybox="gallery">
+       <img src="img/galery/thumbs/img_02.jpg" alt="img_02">
+      </a>
+
+      <a href="img/galery/full/img_03.jpg" data-fancybox="gallery">
+       <img src="img/galery/thumbs/img_03.jpg" alt="img_03">
+      </a>
    </div>
 
    <div class="cont">
@@ -59,17 +70,40 @@
        </ul>
    </div>
 
-     
-   <!-- <h1 id="otz"><em>Оформление заказа</em></h1>
-        <form action="" method="post">
-         <input type="text" placeholder="Имя" name="fname" />
-         <textarea placeholder="Сообщение" name="message" rows="10" cols="45"></textarea>
-         <input type="submit" value="Отправить" /> 
-        </form>
-   -->
+
+   <h1>
+      <a data-fancybox data-src="#modal" href="javascript:;" style=" text-decoration: none; " id="vop">Задать вопрос</a><br>
+   </h1>
+   <div class="modal-window" id="modal" style="display: none; padding: 50px; max-width: 900px;">
+   	 <section class="contact_form">
+   	 	<div class="contact_wrapper"> 
+   	 		<h1>Задать вопрос </h1>
+   	 	    <p>Введите своё имя, почту и введите своё сообщение. Для отправки нажмите "SEND"</p>
+   	 		<form action="#" name="newform" method="post">
+   	 			<div class="form_inputs">
+   	 				<p>Name <span class="red">*</span></p>
+   	 				<input type="text">
+   	 				<p>Email address <span class="red">*</span></p>
+   	 				<input type="text">
+   	 			</div>
+   	 			<p>Message <span class="red">*</span></p>
+   	 			<textarea name="text"></textarea>
+   	 			<div class="button_block">
+   	 				<input type="submit" value="SEND" >
+   	 			</div>
+   	 		<input type="hidden" name="project_name" value="dostbet">
+   	 		<input type="hidden" name="admin_email" value="artem1111666@gmail.com" > 
+   	 		<input type="hidden" name="form_subject" value="fs">
+
+   	 		</form>	
+   	 	<script src="https://code.jduery.com/jquery-1.11.3.min.js"></script>
+   	 	<script src="script.js"></script>>
+   	 	</div>
+   	 </section>
+   </div>	  
    </body> 
-      <footer class="site-footer">
-       <p>©v2020</p>       
+      <footer>
+        <asite>©v2020</asite>       
       </footer>
  </div>
 </html>
