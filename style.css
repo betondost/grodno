@@ -7,7 +7,7 @@
  justify-content: space-around;
  align-items: center;
  position: fixed;
- background-image: url(phon.jpg);
+ background-image: url(img/phone.jpg);
  outline: 5px solid #a33502;
  width: 100%;
 }
